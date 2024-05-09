@@ -33,13 +33,22 @@ MainWindow::MainWindow(QWidget *parent)
         // 2. Change the call function for the QPushButton
         // Exemple : Change R by G -> checkStatus(ui->R, 0x52); -> checkStatus(ui->G, 0x47);
         // For the list of Virtual-Key Codes, refer to:
+
+        // ---------------------------------------------------------------------- //
+
+
         // Constant	Value	Description
+
+        // ---------------------------------------------------------------------- //
         // VK_LBUTTON	0x01	Left mouse button
         // VK_RBUTTON	0x02	Right mouse button
         // VK_CANCEL	0x03	Control-break processing
         // VK_MBUTTON	0x04	Middle mouse button
         // VK_XBUTTON1	0x05	X1 mouse button
         // VK_XBUTTON2	0x06	X2 mouse button
+
+        // ---------------------------------------------------------------------- //
+
         // -	0x07	Reserved
         // VK_BACK	0x08	BACKSPACE key
         // VK_TAB	0x09	TAB key
@@ -81,6 +90,10 @@ MainWindow::MainWindow(QWidget *parent)
         // VK_INSERT	0x2D	INS key
         // VK_DELETE	0x2E	DEL key
         // VK_HELP	0x2F	HELP key
+
+        // ---------------------------------------------------------------------- //
+
+
         // 0x30	0 key
         // 0x31	1 key
         // 0x32	2 key
@@ -118,9 +131,17 @@ MainWindow::MainWindow(QWidget *parent)
         // 0x58	X key
         // 0x59	Y key
         // 0x5A	Z key
+
+        // ---------------------------------------------------------------------- //
+
+
         // VK_LWIN	0x5B	Left Windows key
         // VK_RWIN	0x5C	Right Windows key
         // VK_APPS	0x5D	Applications key
+
+        // ---------------------------------------------------------------------- //
+
+
         // -	0x5E	Reserved
         // VK_SLEEP	0x5F	Computer Sleep key
         // VK_NUMPAD0	0x60	Numeric keypad 0 key
@@ -133,12 +154,20 @@ MainWindow::MainWindow(QWidget *parent)
         // VK_NUMPAD7	0x67	Numeric keypad 7 key
         // VK_NUMPAD8	0x68	Numeric keypad 8 key
         // VK_NUMPAD9	0x69	Numeric keypad 9 key
+
+        // ---------------------------------------------------------------------- //
+
+
         // VK_MULTIPLY	0x6A	Multiply key
         // VK_ADD	0x6B	Add key
         // VK_SEPARATOR	0x6C	Separator key
         // VK_SUBTRACT	0x6D	Subtract key
         // VK_DECIMAL	0x6E	Decimal key
         // VK_DIVIDE	0x6F	Divide key
+
+        // ---------------------------------------------------------------------- //
+
+
         // VK_F1	0x70	F1 key
         // VK_F2	0x71	F2 key
         // VK_F3	0x72	F3 key
@@ -163,6 +192,10 @@ MainWindow::MainWindow(QWidget *parent)
         // VK_F22	0x85	F22 key
         // VK_F23	0x86	F23 key
         // VK_F24	0x87	F24 key
+
+        // ---------------------------------------------------------------------- //
+
+
         // -	0x88-8F	Reserved
         // VK_NUMLOCK	0x90	NUM LOCK key
         // VK_SCROLL	0x91	SCROLL LOCK key
@@ -192,6 +225,10 @@ MainWindow::MainWindow(QWidget *parent)
         // VK_LAUNCH_MEDIA_SELECT	0xB5	Select Media key
         // VK_LAUNCH_APP1	0xB6	Start Application 1 key
         // VK_LAUNCH_APP2	0xB7	Start Application 2 key
+
+        // ---------------------------------------------------------------------- //
+
+
         // -	0xB8-B9	Reserved
         // VK_OEM_1	0xBA	Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ;: key
         // VK_OEM_PLUS	0xBB	For any country/region, the + key
@@ -200,12 +237,20 @@ MainWindow::MainWindow(QWidget *parent)
         // VK_OEM_PERIOD	0xBE	For any country/region, the . key
         // VK_OEM_2	0xBF	Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the /? key
         // VK_OEM_3	0xC0	Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `~ key
+
+        // ---------------------------------------------------------------------- //
+
+
         // -	0xC1-DA	Reserved
         // VK_OEM_4	0xDB	Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the [{ key
         // VK_OEM_5	0xDC	Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the \\| key
         // VK_OEM_6	0xDD	Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ]} key
         // VK_OEM_7	0xDE	Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '" key
         // VK_OEM_8	0xDF	Used for miscellaneous characters; it can vary by keyboard.
+
+        // ---------------------------------------------------------------------- //
+
+
         // -	0xE0	Reserved
         // -	0xE1	OEM specific
         // VK_OEM_102	0xE2	The <> keys on the US standard keyboard, or the \\| key on the non-US 102-key keyboard
@@ -224,6 +269,9 @@ MainWindow::MainWindow(QWidget *parent)
         // VK_NONAME	0xFC	Reserved
         // VK_PA1	0xFD	PA1 key
         // VK_OEM_CLEAR	0xFE	Clear key
+
+        // ---------------------------------------------------------------------- //
+
 
         checkStatus(ui->ESCAPE, VK_ESCAPE);
         checkStatus(ui->ONE, 0x31);
