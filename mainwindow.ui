@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>838</width>
+    <height>262</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 255, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="ESCAPE">
+    <property name="geometry">
+     <rect>
+      <x>37</x>
+      <y>20</y>
+      <width>150</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 6px;</string>
+    </property>
+    <property name="text">
+     <string>ESC</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SHIFT">
+    <property name="geometry">
+     <rect>
+      <x>37</x>
+      <y>90</y>
+      <width>150</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 6px;</string>
+    </property>
+    <property name="text">
+     <string>SHIFT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CTRL">
+    <property name="geometry">
+     <rect>
+      <x>37</x>
+      <y>160</y>
+      <width>150</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 6px;</string>
+    </property>
+    <property name="text">
+     <string>CTRL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ONE">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TWO">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>20</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="THREE">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FOUR">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>20</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Z">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>20</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="G">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>20</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="UP">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>20</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>🡹</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RSHIFT">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>20</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>RSHIFT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Q">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>90</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>Q</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="W">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>90</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>W</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="E">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>90</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="R">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>90</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>R</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="X">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>90</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LEFT">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>90</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>🡸</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DOWN">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>90</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>🡻</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RIGHT">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>90</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>🡺</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>160</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="S">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>160</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="D">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>160</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>160</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SPACE">
+    <property name="geometry">
+     <rect>
+      <x>458</x>
+      <y>160</y>
+      <width>150</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 6px;</string>
+    </property>
+    <property name="text">
+     <string>SPACE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MOUSE1">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>160</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>M1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MOUSE2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>160</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>M2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MOUSE3">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>20</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>M3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MOUSE4">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>90</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>M4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RCTRL">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>160</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 0);
+border-color: rgb(85, 170, 255);
+border-style: solid; 
+border-width: 2px; 
+margin: 4px 4px;</string>
+    </property>
+    <property name="text">
+     <string>RCTRL</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
