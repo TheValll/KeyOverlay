@@ -1,4 +1,4 @@
-# Key Status Monitor App 🖥️
+# KeyOverlay App 🖥️
 
 This application creates a graphical user interface (GUI) using the Qt framework to monitor the status of various keys and buttons on a Windows system. It provides real-time visual feedback on whether a key or button is pressed or released.
 
