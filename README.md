@@ -8,6 +8,8 @@ This application creates a graphical user interface (GUI) using the Qt framework
 - Visual indication of key/button status changes
 - Customizable key/button monitoring
 
+- ![image](https://github.com/TheValll/KeyOverlay/assets/81711481/980a3a96-c455-4441-8550-6c61eb957050)
+
 ## How to Use 🚀
 
 1. **Launching the Application:**
